@@ -67,13 +67,13 @@ class ViewController: UIViewController {
             if error{
                 println("error=\(error!.localizedDescription)")
             }else{
-                var dict=NSJSONSerialization.JSONObjectWithData(data, options:.MutableContainers, error:nil) as? NSDictionary
+                var dict=NSJSONSerialization.JSONObjectWithData(data, options:.MutableContainers, error:nil) as NSDictionary
                 println("post_dict=\(dict)")
                 
-                var ok = dict?["ok"] as Int;
-                var ready = dict?["ready"] as Int;
+                var ok = dict["ok"] as Int;
+                var ready = dict["ready"] as Int;
                 if(ok == 1 && ready == 1){
-                    var result = dict?["result_url"] as String;
+                    var result = dict["result_url"] as String;
                     self.onSetImage(result);
                 }
                 else {
