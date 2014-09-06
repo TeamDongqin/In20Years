@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C4C9CB19BAC38A00B0B284 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4C9CA19BAC38A00B0B284 /* 3.png */; };
+		04C4C9CD19BAC39D00B0B284 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4C9CC19BAC39D00B0B284 /* HttpClient.swift */; };
 		9C0FD4BA19BAB04D00CD1D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD4B919BAB04D00CD1D95 /* AppDelegate.swift */; };
 		9C0FD4BD19BAB04D00CD1D95 /* In20Years.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD4BB19BAB04D00CD1D95 /* In20Years.xcdatamodeld */; };
 		9C0FD4BF19BAB04D00CD1D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FD4BE19BAB04D00CD1D95 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C4C9CA19BAC38A00B0B284 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		04C4C9CC19BAC39D00B0B284 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		9C0FD4B419BAB04D00CD1D95 /* In20Years.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = In20Years.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0FD4B819BAB04D00CD1D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C0FD4B919BAB04D00CD1D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		9C0FD4B619BAB04D00CD1D95 /* In20Years */ = {
 			isa = PBXGroup;
 			children = (
+				04C4C9CC19BAC39D00B0B284 /* HttpClient.swift */,
+				04C4C9CA19BAC38A00B0B284 /* 3.png */,
 				9C0FD4B919BAB04D00CD1D95 /* AppDelegate.swift */,
 				9C0FD4BE19BAB04D00CD1D95 /* ViewController.swift */,
 				9C0FD4C019BAB04D00CD1D95 /* Main.storyboard */,
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C4C9CB19BAC38A00B0B284 /* 3.png in Resources */,
 				9C0FD4C219BAB04D00CD1D95 /* Main.storyboard in Resources */,
 				9C0FD4C419BAB04D00CD1D95 /* Images.xcassets in Resources */,
 			);
@@ -213,6 +220,7 @@
 			files = (
 				9C0FD4BF19BAB04D00CD1D95 /* ViewController.swift in Sources */,
 				9C0FD4BA19BAB04D00CD1D95 /* AppDelegate.swift in Sources */,
+				04C4C9CD19BAC39D00B0B284 /* HttpClient.swift in Sources */,
 				9C0FD4BD19BAB04D00CD1D95 /* In20Years.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 				9C0FD4D519BAB04D00CD1D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0FD4D619BAB04D00CD1D95 /* Build configuration list for PBXNativeTarget "In20YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				9C0FD4D819BAB04D00CD1D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
