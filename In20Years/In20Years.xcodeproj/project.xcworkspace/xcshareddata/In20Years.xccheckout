@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F3696D0-654A-452F-A83D-520277048A11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>In20Years</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DB58E20A6AFE034D90A137E81AB779654BA2FA8</key>
+		<string>https://github.com/TeamDongqin/In20Years.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>In20Years/In20Years.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DB58E20A6AFE034D90A137E81AB779654BA2FA8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TeamDongqin/In20Years.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DB58E20A6AFE034D90A137E81AB779654BA2FA8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DB58E20A6AFE034D90A137E81AB779654BA2FA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>In20Years</string>
+		</dict>
+	</array>
+</dict>
+</plist>
